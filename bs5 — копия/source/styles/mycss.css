@@ -1,0 +1,99 @@
+
+body {
+    font-family: Secular One, serif;
+    background: linear-gradient(0deg, #ffffff 7%, #a52294 77%);
+}
+
+.p{
+    color:black
+}
+.nav-link {
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active {
+    color: azure;
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.navbar-toggler {
+    background-color: azure;
+}
+
+.nav-item1,
+.nav-item2  {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar {
+    color: dark;
+    border-style:solid;
+    border-width: 0.5px;
+    
+}
+
+.card {
+    background: linear-gradient(0deg, #ffffff 7%, #a52294 77%);
+    border-style: none;
+    color: dark;
+    
+}
+
+.slide-text {
+    margin: auto auto;
+}
+
+footer {
+    background-color: #fbfbfb;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfb;
+}
+
+.call-anim {
+    animation: myAnim 15s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
